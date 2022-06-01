@@ -1,2 +1,2 @@
 # ProfileCard
-  Simple Profile card to viwe basic info about me.
+  Simple profile card to know basic info about me.
