@@ -10,9 +10,10 @@ body{
 }
 .main-box{
   position: absolute;
+  top:50%;
+transform:translate(-50%,-50%);
   left: 50%;
   bottom: 8%;
-  transform: translateX(-50%);
   width: 400px;
   height: 550px;
   text-align: center;
@@ -22,6 +23,13 @@ body{
   height: 100%;
   width: 100%;
 }
+
+.content {
+  top: -50%;
+  left: -50%;
+  transform: translate(50%,50%);
+  }
+
 .content .box{
   position: absolute;
   height: 50px;
